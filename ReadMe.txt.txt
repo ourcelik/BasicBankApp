@@ -7,8 +7,8 @@ CustomerAccountDB -> Müşterilere ait hesapları tutar
 CustomerLastProcess -> müşteriler arasında yapılan para transferlerinin geçmişini tutar.
 
 Sistemde bulunan bir kullanıcı kullanıcı girişi yaptığında avl ağacının dengeli bts yapısı sayesinde 
-en hızlı şekilde db de bulur ve gerekli bilgileri ekrana getirir.2^32 gibi yüklü bir kayıtı bile 
-32 adımda bulabilir.Bir banka uygulamasında search ön planda olacağından veri yapımız avl ile tasarlanmıştır.
+hızlı şekilde db de bulur ve gerekli bilgileri ekrana getirir.2^32 gibi yüklü bir kayıtı bile 
+kısa sürede bulabilir.Bir banka uygulamasında search ön planda olacağından veri yapımız avl ile tasarlanmıştır.
 
 8 Tür Mevduat Hesabı bulunmaktadır.
 Yeni hesap açabilir farklı kullanıcı hesaplarına para gönderimi yapabilir veya alabilirsiniz.
